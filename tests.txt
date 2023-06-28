@@ -1,0 +1,35 @@
+xplay with correct spelling
+xplay with another correct spelling
+
+xplay with incorrect spelling
+xplay with another incorrect spelling
+
+xplay passes on the exception from is_spelling_correct to the caller
+
+xget_response takes 'FAVOR' returns some response
+
+xparse true to boolean True
+xparse false to boolean False
+
+xis_spelling_correct calls get_response and parse
+xis_spelling_correct passes on the exception from get_response to the caller
+
+xword picker get_response returns some response 
+
+xparse response takes a string of words and returns a list of words
+xparse returns takes an empty string of words and returns an empty list
+xparse throws an exception if string does not have a list
+
+xgiven a seed and a list of words, get a random word
+xgiven the same seed, get two random words and verify they are different
+
+xverify that get_a_random_word calls get_response, parse, and get_a_random_word_given_a_seed
+
+xverify that get_a_random_word calls get_random_word_given_a_seed with a seed
+xverify that get_a_random_word calls get_random_word_given_a_seed with a 
+different seed when called a second time
+
+xcheck the random word is of length 5
+xcheck the word is in all caps
+
+
